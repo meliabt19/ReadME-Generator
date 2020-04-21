@@ -1,7 +1,7 @@
 const axios = require("axios");
 const inquirer = require("inquirer");
 
-function getUser(username) {
+function findUser(username) {
   inquirer
     .prompt({
       message: "Enter your GitHub username:",
@@ -14,3 +14,4 @@ function getUser(username) {
       });
     });
 }
+module.exports = findUser

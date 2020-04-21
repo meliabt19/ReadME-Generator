@@ -57,11 +57,12 @@ function promptUser() {
     return `#${answers.title}
 
     ${answers.description}
-    ${answers.Installation}
-    ${answers.usage}
-    ${answers.contributing}
-    ${answers.tests}
+    ${answers.installation}
+    ${answers.scenarios}
     ${answers.licensing}
+    ${answers.contributes}
+    ${answers.tests}
+    
    `;
   }
   async function init() {
